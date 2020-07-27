@@ -1,26 +1,11 @@
-## errorIfNotStringLongerThanZero(arg): void
+## errorIfLengthIsZero(arg): void
 
-## Examples
-```
-errorIfNotStringLongerThanZero('h'); // no error.
-
-errorIfNotStringLongerThanZero('');
-// Error: "Input must be string longer than zero characters"
-
-errorIfNotStringLongerThanZero(false);
-// Error: "Input must be string"
-```
+Triggers error "Input must have length greater than zero" if `arg.length === 0` .
 
 ## Installation
-`npm i  error-if-not-string-longer-than-zero`
+`npm i  error-if-length-is-zero`
 
 ## Loading
-```ts
-// if using TypeScript:
-import { errorIfNotStringLongerThanZero } 
-    from 'error-if-not-string-longer-than-zero';
-// if using ES5 JavaScript:
-var errorIfNotStringLongerThanZero = 
-    require('error-if-not-string-longer-than-zero')
-    .errorIfNotStringLongerThanZero;
+```js
+import { errorIfLengthIsZero }  from 'error-if-length-is-zero';
 ```

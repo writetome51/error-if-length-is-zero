@@ -1,34 +1,33 @@
 {
-  "name": "error-if-not-string-longer-than-zero",
+  "name": "error-if-length-is-zero",
   "version": "1.0.0",
-  "description": "Function triggers error if argument is not string longer than zero characters",
+  "description": "Function triggers error if argument has length === 0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/writetome51/error-if-not-string-longer-than-zero.git"
+    "url": "git+https://github.com/writetome51/error-if-length-is-zero.git"
   },
   "keywords": [
     "error",
     "message",
-    "not",
-    "string",
     "length",
+    "not",
     "greater",
     "than",
     "zero",
-    "type",
+    "value",
     "check"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/writetome51/error-if-not-string-longer-than-zero/issues"
+    "url": "https://github.com/writetome51/error-if-length-is-zero/issues"
   },
-  "homepage": "https://github.com/writetome51/error-if-not-string-longer-than-zero#readme",
+  "homepage": "https://github.com/writetome51/error-if-length-is-zero#readme",
   "dependencies": {
-    "error-if-not-string": "^1.0.0"
   }
 }
