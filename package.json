@@ -1,6 +1,6 @@
 {
   "name": "error-if-length-is-zero",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Function triggers error if argument has length === 0",
   "main": "index.js",
   "type": "module",
